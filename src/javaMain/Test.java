@@ -34,8 +34,7 @@ public class Test {
 		final URL resours = Test.class.getResource(fileNmae);
 		try {
 			if (resours != null) {
-			final String path = resours.getPath().substring(1);
-			//content = (ArrayList<String>) Files.readAllLines(Paths.get(path), StandardCharsets.UTF_8);
+				final String path = resours.getPath().substring(1);
 			if (!Files.isReadable(Paths.get(path))) {
 				System.out.println(" file is NOT readeble");
 			} else {
