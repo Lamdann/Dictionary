@@ -23,7 +23,7 @@ public class Test {
 			for (final String w : words) {
 				dic.addWord(w);
 			}
-			dic.printWordByPrefix("derst");
+			dic.printWordByPrefix("de");
 		}
 
 	}
